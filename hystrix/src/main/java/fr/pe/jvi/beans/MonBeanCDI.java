@@ -13,6 +13,7 @@ import fr.pe.jvi.intercepteur.Audit;
 //@ApplicationScoped
 public class MonBeanCDI {
 
+	/** L'évement CDI*/
 	@Inject
 	private Event<EvenementHystrix> m_evenement;
 	
